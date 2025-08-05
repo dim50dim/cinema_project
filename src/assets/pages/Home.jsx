@@ -14,7 +14,9 @@ const Home = () => {
     <div className='home'>
         <form action="" onSubmit={handleSearch} className='search-form'>
             <input type="text" placeholder='Search for movies' className='search-input' />
+            <button className="search-button" type='submit'> Search </button>
         </form>
+
       <div className="movies-grid">
         {movies.map(movie => <MovieCard movie={movie} key={movie.id}/>)}
       </div>
