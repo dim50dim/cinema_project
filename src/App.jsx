@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-          <MovieCard/>
+          <MovieCard movie={{title:"Tim's film",release_date:"2024"}}/>
     </>
   )
 }
