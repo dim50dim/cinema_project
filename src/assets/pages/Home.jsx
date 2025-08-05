@@ -8,8 +8,11 @@ const Home = () => {
         {id:2, title: 'Terminator',release_date: '2025'},
         {id:3, title: 'The Matrix',release_date: '2024'},
     ]
-    const handleSearch = () => {
-alert(searchQuery);
+    const handleSearch = (e) => {
+           e.preventDefault()
+           alert(searchQuery)
+           setSearchQuery('-------')
+
     }
   return (
     <div className='home'>
