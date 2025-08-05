@@ -9,7 +9,7 @@ const Home = () => {
         {id:3, title: 'The Matrix',release_date: '2024'},
     ]
     const handleSearch = () => {
-
+alert(searchQuery);
     }
   return (
     <div className='home'>
