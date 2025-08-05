@@ -18,7 +18,8 @@ const Home = () => {
             type="text"
              placeholder='Search for movies'
               className='search-input'
-              value={searchQuery} />
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)} />
             <button className="search-button" type='submit'> Search </button>
         </form>
 
