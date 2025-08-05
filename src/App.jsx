@@ -1,6 +1,7 @@
 
 
 import './App.css'
+import MovieCard from './components/MovieCard'
 import Text from './components/Text'
 
 function App() {
@@ -8,9 +9,7 @@ function App() {
 
   return (
     <>
-             <h1>hello everyone, stay calm</h1>
-             <Text display='what"s up'/>
-             <Text display='move on'/>
+          <MovieCard/>
     </>
   )
 }
