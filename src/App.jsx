@@ -3,7 +3,7 @@
 import '../src/css/App.css'
 import Favorites from './assets/pages/Favorites';
 import Home from './assets/pages/Home';
-import MovieCard from './components/MovieCard'
+
 import{Routes,Route} from "react-router-dom"
 import Navbar from './components/Navbar';
 
