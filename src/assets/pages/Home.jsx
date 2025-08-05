@@ -14,7 +14,7 @@ const Home = () => {
             const popularMovies = await getPopularMovies();
             setMovies(popularMovies);
         } catch (err) {
-            setError('Failed to load movies ...');
+            setError('Failed to load movies ...',err);
         } finally {
             setLoading(false);
         }
@@ -32,7 +32,7 @@ const Home = () => {
              setMovies(searchResults)
              setError(null)
          } catch (err) {
-            setError('Failed to search movies...')
+            setError('Failed to search movies...',err)
          }finally{
             setLoading(false)
           }
