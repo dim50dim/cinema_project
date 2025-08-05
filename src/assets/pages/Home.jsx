@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import MovieCard from '../../components/MovieCard'
 
 const Home = () => {
+    const [] = useState();
     const movies = [
         {id:1, title: 'John Wick',release_date: '2020'},
         {id:2, title: 'Terminator',release_date: '2025'},
