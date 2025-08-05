@@ -1,6 +1,6 @@
 
 
-import './App.css'
+import './css/App.css'
 import Favorites from './assets/pages/Favorites';
 import Home from './assets/pages/Home';
 import MovieCard from './components/MovieCard'
