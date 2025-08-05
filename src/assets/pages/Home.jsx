@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import MovieCard from '../../components/MovieCard'
 
 const Home = () => {
-    const [] = useState();
+    const [searchQuery, setSearchQuery] = useState("");
     const movies = [
         {id:1, title: 'John Wick',release_date: '2020'},
         {id:2, title: 'Terminator',release_date: '2025'},
@@ -14,7 +14,11 @@ const Home = () => {
   return (
     <div className='home'>
         <form action="" onSubmit={handleSearch} className='search-form'>
-            <input type="text" placeholder='Search for movies' className='search-input' />
+            <input 
+            type="text"
+             placeholder='Search for movies'
+              className='search-input'
+              value={searchQuery} />
             <button className="search-button" type='submit'> Search </button>
         </form>
 
