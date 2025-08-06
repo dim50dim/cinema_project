@@ -14,8 +14,9 @@ function App() {
 
   return (
     <>
+      
     <MovieProvider>
-    <Navbar/>
+  <Navbar/>
   <main className="main-content">
     <Routes>
         <Route path='/' element={<Home/>}></Route>
